@@ -66,6 +66,10 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.accent-color {
+  color: #4d5ae5;
+}
+
 .nav-link.current {
   position: relative;
 }
@@ -706,6 +710,11 @@ a {
   fill: #f4f4fd;
 }
 
+.model-form-checkbox:focus + .model-form-label > .model-form-checkbox-span {
+  border-color: #4d5ae5;
+}
+
+
 .model-form-checkbox-span {
   display: inline-flex;
   align-items: center;
@@ -717,12 +726,33 @@ a {
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: none;
   cursor: pointer;
+  margin-right: 8px; 
 }
 
 .model-form-privacy-link {
   text-decoration: underline;
 }
 
+.model-form-submit-btn {
+
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  display: block;
+  
+  
+  cursor: pointer;
+  background-color: #4D5AE5;
+   border: none;
+   margin-left: auto;
+    margin-right: auto;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 /* ------------ Modal ------------ */
