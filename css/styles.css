@@ -504,7 +504,7 @@ a {
   color: #ffffff;
 }
 
-.form-btn {
+.form-btn-subscribe {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -526,6 +526,13 @@ a {
 
 .svg-btn {
   margin-left: 16px;
+}
+
+.form-btn-subscribe:hover,
+.form-btn-subscribe:focus {
+  color: #ffffff;
+  border: none;
+  background-color: #404bbf;
 }
 
 /* ============ Page Footer ============ */
@@ -754,4 +761,12 @@ a {
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.model-form-submit-btn:hover,
+.model-form-submit-btn:focus {
+  color: #ffffff;
+  border: none;
+  background-color: #404bbf;
+}
+
 /* ------------ Modal ------------ */
